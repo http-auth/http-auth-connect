@@ -14,7 +14,7 @@ Via [npm](http://npmjs.org/):
 
 ```bash
 $ npm install http-auth-connect
-```	
+```    
 
 ## Usage
 ```javascript
@@ -23,8 +23,8 @@ const auth = require('http-auth');
 const authConnect = require('http-auth-connect');
 
 const basic = auth.basic({
-	realm: "Simon Area.",
-	file: __dirname + "/../data/users.htpasswd"
+    realm: "Simon Area.",
+    file: __dirname + "/../data/users.htpasswd"
 });
 
 // Application setup.

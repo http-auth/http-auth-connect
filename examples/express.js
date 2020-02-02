@@ -6,8 +6,8 @@ const auth = require('http-auth');
 const authConnect = require('../src/index');
 
 const basic = auth.basic({
-	realm: "Simon Area.",
-	file: __dirname + "/../data/users.htpasswd" // gevorg:gpass, Sarah:testpass
+    realm: "Simon Area.",
+    file: __dirname + "/../data/users.htpasswd" // gevorg:gpass, Sarah:testpass
 });
 
 // Application setup.
@@ -21,6 +21,6 @@ app.get('/', (req, res) => {
 
 // Start server.
 app.listen(1337, () => {
-	// Log URL.
-	console.log("Server running at http://127.0.0.1:1337/");
+    // Log URL.
+    console.log("Server running at http://127.0.0.1:1337/");
 });
