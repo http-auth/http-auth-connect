@@ -1,7 +1,7 @@
 {
   "name": "http-auth-connect",
   "description": "Connect framework integration with http-auth module.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Gevorg Harutyunyan (http://github.com/gevorg)",
   "maintainers": [
     {
@@ -31,7 +31,7 @@
     "eslint-plugin-node": "^11.0.0",
     "mocha": "^7.0.1",
     "request": "^2.88.0",
-    "http-auth": "^2.4.1",
+    "http-auth": "^4.1.2",
     "express": "^4.17.1"
   },
   "engines": {
