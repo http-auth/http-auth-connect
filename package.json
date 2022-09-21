@@ -1,7 +1,7 @@
 {
   "name": "http-auth-connect",
   "description": "Connect framework integration with http-auth module.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Gevorg Harutyunyan (http://github.com/gevorg)",
   "maintainers": [
     {
